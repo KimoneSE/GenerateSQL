@@ -1,0 +1,3 @@
+当需要添加新的运算符(如>=、<=)时，可创建相应的类(GTEOperator、LTEOperator)并实现Operator接口
+
+当需要添加查询的实体类(如User)时，可在entity包中创建新的类。在调用SQLGenerator中的getSql方法时，传入类的名称即可。
